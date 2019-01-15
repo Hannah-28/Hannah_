@@ -187,7 +187,7 @@ textarea{
 }
 footer{
     background: #000410;
-    height:12vh;
+    /* height:12vh; */
     text-align: center;
     color:grey;
     padding:0em 0em 4em 0em
