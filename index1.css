@@ -6,7 +6,7 @@ label{
 }
 .menu a{
     display: inline;
-    padding:0em 1em;
+    padding:0em 0.5em;
     color:white;
     background-color: black
 }
@@ -44,5 +44,5 @@ label{
     text-align: center
 }
 footer{
-    padding:2em 0em 1.5em 0em
+    padding:3.5em 0em 1.5em 0em
 }

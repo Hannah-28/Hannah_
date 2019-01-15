@@ -1,0 +1,36 @@
+label{
+    margin-right: 1em;
+}
+.menu a{
+    border-bottom: 2px solid black
+}
+.right{
+    justify-content: center;
+}
+.right p {
+    font-size: 1.4em
+}
+.me{
+    width:30%;
+    margin-top: 4em;
+}
+.content{
+    margin-top:7em
+}
+.who, .background, .goals, .status{
+    width:300px;
+    margin:2em;
+    line-height: 2.5em
+}
+#contact{
+    margin-top:7em
+}
+form input{
+    margin:1em;
+    width:300px;
+    font-size: 1.3em
+}
+footer{
+    margin-top: 6em;
+    padding:3em 0em 1.5em 0em
+}
