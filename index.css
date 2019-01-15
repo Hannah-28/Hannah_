@@ -1,0 +1,203 @@
+body,html{
+    width:100%;
+    height: 100%;
+    overflow: inherit
+}
+*{
+    margin: 0
+}
+.nav{
+    text-align: right;
+    margin-top: -4.7em
+}
+.header{
+    position: fixed;
+    width:100%;
+    top:0
+}
+.header h1{
+    padding:0.3em 0.3em;
+    font-size: 3.2em;
+    color:rgb(109, 109, 235);
+    font-family: Arial;
+    background-color:black;
+}
+label{
+    font-size: 3em;
+    color:white;
+    cursor: pointer;
+    display:inline;
+    padding-top: -2em
+}
+#toggle{
+    display: none
+}
+.menu{
+    background-color:rgba(0,0,0,0.8);
+    margin-top:-2.5em
+}
+.menu a{
+    text-decoration: none;
+    margin: 1em 0em;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    width:100%;
+    display: none;
+    color: #6c63ff
+}
+#toggle:checked + .menu a{
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid none;
+}
+.menu a:first-child{
+    padding-top:1em
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center
+}
+.left img{
+    width:53vw;
+    margin-top: 3em;
+    margin-left: -5em;
+}
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center
+}
+.right h1{
+    font-family: 'Times New Roman';
+    font-size: 2.9em;
+}
+.right p{
+    font-family: 'Times New Roman';
+    font-size: 1.6em;
+    color: grey
+}
+.right input{
+    margin-top: 2em;
+    background-color:rgba(130, 130, 223,0.2);
+    color:rgb(80, 100, 225);
+    font-weight: bolder;
+    border:none;
+    padding:0.7em 2em;
+    font-size: 1em;
+    cursor: pointer;
+}
+.right input:hover{
+    color:white;
+    background-color:rgb(80, 100, 225);
+}
+.me{
+    font-family: Arial;
+    font-size: 2em;
+    border-right: 2px solid pink;
+    border-bottom: 2px solid pink;
+    text-align: center;
+    width:20%;
+    box-shadow: 4px 4px 5px #888888;
+    margin-top: 3em;
+    padding: 0.5em 0em;
+    color:black;
+}
+.me:hover {
+    transform: scale(1.1);
+    color:#757070fb
+}
+.content, #contact{
+    margin-top:2em
+}
+.content , .des{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9
+}
+.who, .background, .goals, .status{
+    width:20em;
+    background-color: none;
+    margin:3em;
+    line-height: 3em
+}
+.content h3, .des h3{
+    font-family: Verdana;
+    font-size: 1.5em
+}
+.content p, .des p {
+    color:rgb(78, 75, 75);
+    font-size:1.6em
+}
+.goals pre{
+    font-weight: bold;
+    color:blue;
+    font-size: 1.2em
+}
+.status h2{
+    font-size: 2em;
+    color:#888888
+}
+.date{
+    color:rgb(80, 100, 225);
+}
+.mail{
+    color:#ff0044;
+    font-weight: bolder
+}
+.status{
+    line-height: 4.5em
+}
+#contact h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2.5em
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+}
+form input, textarea{
+    border: 0px;
+    border-bottom: 1px solid black;
+    width:350px;
+    margin: 2em;
+    padding:2em 0em;
+    font-size: 1.3em
+}
+textarea{
+    width: 90%
+}
+.wait{
+    cursor: pointer;
+    border:none;
+    color:white;
+    background-color:rgb(80, 100, 225);
+    padding:1em 0em;
+    width:200px
+}
+.wait:hover{
+    background-color:rgba(130, 130, 223,0.2);
+    color:rgb(80, 100, 225);
+}
+footer{
+    background: #000410;
+    height:12vh;
+    text-align: center;
+    color:grey;
+    padding:0em 0em 4em 0em
+}
+footer p{
+    font-size: 1.5em
+}
+footer img{
+    cursor:pointer;
+    width: 25px;
+    padding:0.5em
+}
