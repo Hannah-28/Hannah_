@@ -1,0 +1,82 @@
+.header h1{
+    padding:0.3em 0.3em;
+    font-size: 1.9em;
+}
+label{
+    font-size: 2.5em;
+    display: block;
+    padding-top:0.6em
+}
+.menu a{
+    font-size: 1.2em;
+    border-bottom: 2px solid black
+}
+.left img{
+    width:60vw;
+    margin-left: 0em;
+}
+.right{
+    justify-content: center;
+}
+.right h1{
+    font-size: 1.7em
+}
+.right p {
+    font-size: 1.2em;
+    text-align: center
+}
+.right input{
+    padding:0.7em 1.5em;
+}
+.me{
+    width:200px;
+    margin-top: 4em;
+}
+.content, #contact{
+    margin-top: 4em;
+}
+.content, .des{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center
+}
+.who, .background, .goals, .status{
+    width:300px;
+    margin:2em;
+    line-height: 3em
+}
+.who p, .background p, .goals p, .status p{
+    font-size:1em
+}
+.goals pre{
+    font-size: 1em;
+}
+#contact h2{
+    font-size: 2.2em
+}
+form input, textarea{
+    width:250px;
+    margin: 2em;
+    padding:1em 0em;
+    font-size: 1em
+}
+textarea{
+    width: 90%
+}
+.wait{
+    margin:1em 0.2em;
+    width: 110px
+}
+footer{
+    margin-top: 6em;
+    padding:3em 0em 1.5em 0em
+}
+footer p{
+    font-size: 1.2em
+}
+footer img{
+    cursor:pointer;
+    width: 25px;
+    padding:0.5em
+}

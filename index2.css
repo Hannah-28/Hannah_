@@ -8,7 +8,8 @@ label{
     justify-content: center;
 }
 .right p {
-    font-size: 1.4em
+    font-size: 1.3em;
+    text-align: center
 }
 .me{
     width:30%;
@@ -17,10 +18,19 @@ label{
 .content{
     margin-top:7em
 }
+.goals pre{
+    font-size: 1em;
+}
+.content h3, .des h3{
+    font-size: 1.4em
+}
+.content p, .des p {
+    font-size:1.1em
+}
 .who, .background, .goals, .status{
-    width:300px;
-    margin:2em;
-    line-height: 2.5em
+    width:250px;
+    margin:2em 0.5em 2em 0.5em;
+    line-height: 2em
 }
 #contact{
     margin-top:7em
